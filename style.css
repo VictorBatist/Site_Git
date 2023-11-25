@@ -38,13 +38,30 @@ header{
 #menu ul li a:hover{
      background-color: #3a3e46;
 }
-.logo{
-    width: 75px;
-    display: block;
-    padding: auto;
-    margin: auto;
+#logo{
+    width: 90px;
+    display: flex;
+    margin: 10px;
+    margin-inline: auto;
 }
 
 body{
-    background-color: #727376;
+    background-color: #a2a3a5;
+}
+
+h1{
+    margin: 10px;
+    text-align: center;
+}
+h2{
+    margin: 20px;
+    text-align: center;
+}
+
+.img_home_page{
+    width: 300px;
+    display: block;
+    border-radius: 10px;
+    align-items: center;
+    background-color: #fff;
 }
