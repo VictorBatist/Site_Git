@@ -54,8 +54,44 @@ h1{
     text-align: center;
 }
 h2{
-    margin: 20px;
+    display: flexbox;
+    color: #2d2f35;
+    border-right: 2px solid #2d2f35;
+    font-size: 2.55em;
+    margin:0 auto;
     text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    
+}
+
+
+.typing-animation{
+
+    animation: blinkCursor 500ms steps(40) infinite normal, 
+    typing 4s steps(40) 1s normal;
+
+}
+
+@keyframes typing {
+
+    from{
+        width: 0;
+    }
+
+    to{
+        width: 34em;
+    }
+    
+}
+
+@keyframes blinkCursor{
+    form{
+        border-right-color: #2d2f35;
+    }
+    to{
+        border-right-color: transparent;
+    }
 }
 
 .img_home_page{
