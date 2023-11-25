@@ -48,3 +48,20 @@ header{
 body{
     background-color: #a2a3a5;
 }
+
+h1{
+    margin: 10px;
+    text-align: center;
+}
+h2{
+    margin: 20px;
+    text-align: center;
+}
+
+.img_home_page{
+    width: 300px;
+    display: block;
+    border-radius: 10px;
+    align-items: center;
+    background-color: #fff;
+}
