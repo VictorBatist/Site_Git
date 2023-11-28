@@ -61,7 +61,16 @@ body{
     padding: 20px;
 }
 
+#parametro .elemento p{
+    padding: 10px;
+}
+
+#parametro .elemento h3{
+    padding: 10px;
+}
+
 #parametro .elemento2{
+    max-height: 500px;
     background-color: #fff;
     border-radius: 20px;
     margin: 10px;
