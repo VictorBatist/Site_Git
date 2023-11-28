@@ -52,11 +52,9 @@ body{
 #parametro{
     display: flex;
     text-align: center;
-    align-items: center;
 }
 
 #parametro .elemento{
-    height: 1920px;
     background-color: #fff;
     border-radius: 20px;
     margin: 10px;
@@ -64,11 +62,17 @@ body{
 }
 
 #parametro .elemento2{
-    height: 1920px;
-    display: flex;
     background-color: #fff;
     border-radius: 20px;
     margin: 10px;
+    padding: 10px;
+}
+
+#parametro .elemento2 ul{
+    list-style-type: none;
+}
+
+#parametro .elemento2 ul li{
     padding: 10px;
 }
 
