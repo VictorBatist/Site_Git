@@ -85,6 +85,14 @@ body{
     padding: 10px;
 }
 
+.bottom{
+    color: #fff;
+    text-decoration: none;
+    border-radius: 8px;
+    padding: 9px;
+    background-color: gray;
+}
+
 h1{
     margin: 10px;
     text-align: center;
@@ -97,6 +105,10 @@ h2{
 h3{
     margin: 10px;
     text-align: center;
+}
+
+h4{
+    margin: 20px;
 }
 
 .img_home_page{
