@@ -14,17 +14,30 @@ header{
     display: flex;
 }
 
-.container .logo{
-    align-items: flex-start;
-    width: 120px;
+header #container{
+    display: flex;
+    align-items: center;
+}
+
+header #container .logo{
+    display: flex;
+    width: 12%;
     margin: 20px;
 }
 
-.search_box{
-background: #a2a3a5;
+.search-box{
+margin: 20px;
+background: #fff;
 height: 40px;
 border-radius: 20px;
 padding: 10px;
+display: flex;
+}
+
+.input-busc input{
+    border: 0;
+    outline: 0;
+    font-size: 15px;
 }
 
 body{
