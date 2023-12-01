@@ -14,35 +14,30 @@ header{
     display: flex;
 }
 
-.container{
-    width: 1080px;
+header #container{
     display: flex;
     align-items: center;
-    justify-content: center;
 }
 
-#menu ul {
-    list-style-type: none;
-    background-color: black;
-}
-#menu ul li{
-    display: inline;
-}
-#menu ul li a{
-    color: #fff;
-    padding: 20px;
-    display: inline-block;
-    text-decoration: none;
-    transition: background .6s;
-}
-#menu ul li a:hover{
-     background-color: #3a3e46;
-}
-#logo{
-    width: 90px;
+header #container .logo{
     display: flex;
-    margin: 10px;
-    margin-inline: auto;
+    width: 12%;
+    margin: 20px;
+}
+
+.search-box{
+margin: 20px;
+background: #fff;
+height: 40px;
+border-radius: 20px;
+padding: 10px;
+display: flex;
+}
+
+.input-busc input{
+    border: 0;
+    outline: 0;
+    font-size: 15px;
 }
 
 body{
