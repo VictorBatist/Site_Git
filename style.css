@@ -120,11 +120,18 @@ h4{
 
 footer{
     background-color: var(--color-1);
+    display: flex;
+    
 }
 
 .Logo-Rodape{
-    margin-top: 20px;
-    margin-left: 20px;
-    margin-bottom: 10px;
-    width: 100px;
+    margin: 10px;
+    width: 120px;
+}
+
+footer .redes-sociais{
+    background-color: #a2a3a5;
+    display: flex;
+    color: var(--color-2);
+
 }
