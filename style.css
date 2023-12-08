@@ -68,6 +68,10 @@ body{
     padding: 10px;
 }
 
+#parametro .elemento p .paragrafo-iniciando{
+    margin: 10px;
+}
+
 #parametro .elemento h3{
     padding: 10px;
 }
@@ -110,8 +114,14 @@ h2{
     text-align: center;   
 }
 
-h3{
+#parametro .elemento2 h3{
     margin: 10px;
+    
+}
+
+#parametro .elemento h3{
+    margin: 10px;
+    margin-top: 50px;
     text-align: center;
 }
 
