@@ -18,18 +18,18 @@
 
 header{
     background-color: var(--color-1);
+    display: inline-flex;
     width: 100%;
-    display: flex;
-}
-
-header #container{
-    display: flex;
     align-items: center;
 }
 
-header #container .logo{
-    display: flex;
-    width: 12%;
+.container{
+    text-align: start;
+    margin-left: 20px;
+}
+
+.logo{
+    width: 120px;
     margin: 20px;
 }
 
