@@ -121,17 +121,27 @@ h4{
 footer{
     background-color: var(--color-1);
     display: flex;
-    
+
 }
 
-.Logo-Rodape{
+.logo-rodape{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-logo{
     margin: 10px;
     width: 120px;
 }
 
 footer .redes-sociais{
-    background-color: #a2a3a5;
     display: flex;
     color: var(--color-2);
+    margin: 10px;
+}
 
+.copyright{
+    color: var(--color-2);
+    margin: 20px;
 }
